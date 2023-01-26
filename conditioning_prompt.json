@@ -1,0 +1,44 @@
+{
+  "questions": [
+    {
+      "question": "when is the next pass for AO-7?",
+      "category": "satellite pass_prediction",
+      "input_parameters": {
+        "pass_numbers": [0],
+        "satellite": "AO-7"
+      },
+      "output_parameters": [
+        "satellite_rise_time",
+        "satellite_set_time",
+        "satellite_maximum_elevation"
+      ]
+    },
+    {
+      "question": "what is the current latitude and longitude of the International Space Station?",
+      "category": "satellite_state",
+      "input_parameters": {
+        "satellite": "ISS",
+        "time": "now"
+      },
+      "output_parameters": [
+        "latitude",
+        "longitude"
+      ]
+    },
+    {
+      "question": "where will the ISS be at 8:36pm?",
+      "category": "satellite_state",
+      "input_parameters": {
+        "satellite": "ISS",
+        "time": "Dec 31 2022 20:36UTC"
+      },
+      "output_parameters": [
+        "latitude",
+        "longitude",
+        "altitude"
+      ]
+    }
+  ]
+}
+
+ is a list of sample JSON responses.  Form the question 'wheres the ISS?' into properly formatted JSON as above.  **. {\n "question":
